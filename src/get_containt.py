@@ -1,7 +1,7 @@
 from bs4 import BeautifulSoup
 import requests
 
-
+""" Get all news by parsing https://hihi2.com, and get only titles and contents """
 class GetData:
     def __init__(self):
         self.response = requests.get("https://hihi2.com/category/real-madrid-news?utm_source=hihi2&"
